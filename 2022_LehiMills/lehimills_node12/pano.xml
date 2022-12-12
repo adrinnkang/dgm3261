@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" apprev="18116" appversion="6.1.15">
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelingroll="0" levelingpitch="0" levelbiashidpi="1.000" width="2255" height="2255" leveltilesize="510" overlap="1">
+    <level preload="0" predecode="0" width="2255" height="2255"/>
+    <level preload="0" predecode="0" width="1127" height="1127"/>
+    <level preload="0" predecode="0" width="563" height="563"/>
+    <level preload="1" predecode="1" width="281" height="281"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0.152456" pan="-46.0322" fov="70" projection="4"/>
+    <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max tilt="90" pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270"/>
+  </view>
+  <userdata customnodeid="" datetime="11/21/22 2:26 AM" copyright="" author="" longitude="" heading="0" nodeid="node1" title="" info="" description="" source="" tags="Node 12" latitude="" comment=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label textalpha="1" border="1" bordercolor="0x000000" enabled="1" borderalpha="1" borderradius="1" background="1" wordwrap="1" backgroundalpha="1" width="180" height="20" backgroundcolor="0xffffff" textcolor="0x000000"/>
+    <polystyle bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
+  </hotspots>
+  <media>
+    <video pan="-34.280" tilt="1.370" id="Element01" startmutedmobile="0" roty="-7.000" pansize="10.000" fov="8.849" level="1.000" width="100" rotx="-3.000" tiltsize="10.000" mode="3" loop="1" rotz="0.000" handcursor="0" height="100" nodechangekeep="0" ambientlevel="0.000" clickmode="1" field="90.000" stretch="1.000">
+      <source url="media/IMG_9854.MOV"/>
+    </video>
+  </media>
+  <transition blendcolor="0x000000" type="crossdissolve" blendtime="1" enabled="1" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" zoomin="0" zoomfov="20" zoomafteroutfov="20" zoomafterinfov="90"/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+  <control dblclickfullscreen="0" rubberband="0" contextprojections="0" simulatemass="1" contextfullscreen="1" speedwheel="1" lockedmouse="0" lockedkeyboardzoom="0" invertcontrol="1" lockedkeyboard="0" sensitivity="8" lockedwheel="0" contextvr="1" invertwheel="0"/>
+</panorama>
