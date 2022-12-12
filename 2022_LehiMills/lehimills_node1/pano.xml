@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.15" apprev="18116" id="node1">
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="2254" height="2254" levelbias="0.400">
+    <level preload="0" predecode="0" width="2254" height="2254"/>
+    <level preload="0" predecode="0" width="1127" height="1127"/>
+    <level preload="0" predecode="0" width="563" height="563"/>
+    <level preload="1" predecode="1" width="281" height="281"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start fov="70" tilt="-1.34178" projection="4" pan="-85.3513"/>
+    <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max fov="120" tilt="90" fovfisheye="360" scaletofit="1" fovstereographic="270" pan="360"/>
+  </view>
+  <userdata comment="" source="" latitude="" info="" description="" nodeid="node1" heading="0" title="" author="" customnodeid="" datetime="11/21/22 12:56 AM" tags="Node 1 - Gift Shop" copyright="" longitude=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label borderalpha="1" borderradius="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" border="1" width="180" height="20" backgroundalpha="1" backgroundcolor="0xffffff" textalpha="1" textcolor="0x000000"/>
+    <polystyle borderalpha="1" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+    <hotspot tilt="-5.82" skinid="ht_image" description="" id="Point01" title="Muffin Cups" url="images/node1-1.jpg" target="" pan="-109.11"/>
+    <hotspot tilt="-11.96" skinid="ht_image" description="" id="Point02" title="Pancake Mix" url="images/node1-2.jpg" target="" pan="-136.15"/>
+    <hotspot tilt="4.94" skinid="ht_image" description="" id="Point03" title="Syrups" url="images/node1-3.jpg" target="" pan="-162.96"/>
+  </hotspots>
+  <media/>
+  <transition zoomafteroutfov="20" zoomoutpause="1" zoomin="0" enabled="1" blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomafterinfov="90" blendtime="1" zoomout="0" softedge="0" zoomspeed="2"/>
+  <autorotate noderandom="1" returntohorizon="0.000" startloaded="0" enabled="1" speed="0.050" useanimation="0" nodedelay="0.00" delay="5.00" nodefilter=""/>
+  <flyintransition enabled="1" speed="2.00"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control contextvr="1" simulatemass="1" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" invertwheel="0" speedwheel="1" invertcontrol="1" lockedwheel="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" rubberband="0" contextprojections="0"/>
+</panorama>
